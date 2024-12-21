@@ -46,3 +46,4 @@ web3/artifacts/
 # Ignore package-lock.json, .env files, etc., in web3 directory
 web3/package-lock.json
 web3/.env
+web3/package.json
