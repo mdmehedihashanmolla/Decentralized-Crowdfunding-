@@ -1,0 +1,48 @@
+# Ignore node_modules in client and web3 directories
+client/node_modules/
+web3/node_modules/
+
+# Ignore .env files in client and web3 directories
+client/.env
+web3/.env
+
+# Ignore logs in client directory
+client/logs/
+client/*.log
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+client/pnpm-debug.log*
+client/lerna-debug.log*
+
+# Ignore dist, dist-ssr, and *.local files in client directory
+client/dist/
+client/dist-ssr/
+client/*.local
+
+# Ignore editor files in client directory
+client/.vscode/*
+client/.idea/
+client/.DS_Store
+client/*.suo
+client/*.ntvs*
+client/*.njsproj
+client/*.sln
+client/*.sw?
+
+# Ignore secrets in client directory
+client/.env
+
+# Ignore coverage files in web3 directory
+web3/coverage/
+web3/coverage.json
+
+# Ignore typechain and hardhat files in web3 directory
+web3/typechain/
+web3/typechain-types/
+web3/cache/
+web3/artifacts/
+
+# Ignore package-lock.json, .env files, etc., in web3 directory
+web3/package-lock.json
+web3/.env
